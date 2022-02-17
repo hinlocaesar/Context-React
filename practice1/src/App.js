@@ -1,13 +1,13 @@
 import React from "react";
 import { ThemeContext } from "./theme-context";
-import ThemedButton2 from "./themed-button2";
+import ThemedButton1 from "./themed-button1";
 
 class App extends React.Component {
   render() {
     return (
       <>
-        <ThemeContext.Provider value={"light"}>
-          <ThemedButton2 />
+        <ThemeContext.Provider value={"grey"}>
+          <ThemedButton1 />
         </ThemeContext.Provider>
       </>
     );
